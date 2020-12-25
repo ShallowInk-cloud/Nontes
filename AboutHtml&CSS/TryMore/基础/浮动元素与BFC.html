@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>BFC规则</title>
+    <style>
+            .box1{
+                width: 100px;
+                height: 100px;
+                background-color: yellow;
+                /*margin-top: 300px;*/
+
+                float: left;
+                /*浮动元素不会挤掉块元素占空间，但是会隔开文字*/
+            }
+            .box2{
+                height: 300px;
+                background-color: orange;
+
+            }
+
+            .box3{
+                float: left;
+                width: 200px;
+                height: 200px;
+                background-color: purple;
+                margin: 5px;
+                /*clear:left;清除左边浮动对元素的影响*/
+                /*默认值none 不清除*/
+                /*both 谁影响大清谁*/
+            }
+
+    </style>
+</head>
+<body>
+<div class="box1"></div>
+<div class="box2">
+    鲁迅是中国现代文学大师,在小说,散文,杂文,诗歌,文学翻译,文学史研究等领域,都作出了杰出的贡献.
+    钱理群先生说:"说起文学家的鲁迅,人们首先想起的是小说家的鲁迅,杂文家的鲁迅,而较少注意散文家的鲁迅.
+    "但正是鲁迅,为新文学散文史留下了最初的十分丰满而优美的篇章. 钱理群先生认为鲁迅的散文可分为四类,
+    即《朝花夕拾》里的散文,《野草》里的散文,收入鲁迅杂文集里的散文,以及鲁迅的演讲词.
+    《中国现代名家经典书系:鲁迅散文精选》的编排便暗合这种划分法,将全书分成五大板块,
+    即"朝花夕拾","野草","人物感怀","文学小品"与"讲演录".
+    《中国现代名家经典书系:鲁迅散文精选》在每篇文章后面都做了比较细致的注释,同时配有简短的导读,
+    希望对读者更深入地认识和理解鲁迅先生的散文作品有所助益.
+</div>
+<div class="box3"></div>
+<div class="box3"></div>
+</body>
+</html>

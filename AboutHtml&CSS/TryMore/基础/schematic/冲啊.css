@@ -1,0 +1,71 @@
+/* 
+    CSS中的注释，注释中的内容会被浏览器忽略
+
+    CSS语法：
+        选择器 声明块
+        选择器
+            -通过选择器可以选中页面中的指定元素
+            -比如
+                p 选中页面中所有的p标签元素
+                div 选中页面中所有的div标签元素
+        声明块
+            -整体是一对大括号
+            -声明块由一个一个的声明组成
+            -声明是一个名值对结构：
+                样式名对应一个样式值
+                名和值之间使用：连接，使用；结尾
+            -声明块中的所有样式将会应用到其前边的
+                选择器所对应的元素上
+*/
+*{
+    padding: 0;margin: 0;
+}
+/* 通配选择器 */
+body{
+    background-color:gainsboro;
+}
+/* 元素选择器 */
+div.box{
+    width: 420px;height: 40px;
+    background-color: red;
+    margin:20px auto;
+    
+}
+/* 交集选择器  */
+p{
+    font-size: 60px;
+    color:white;
+    background-color: tomato;
+    width: 480px;
+    margin:20px auto;
+    border-radius: 10px; 
+} 
+/* id选择器 */
+#special{
+    color:greenyellow;
+}
+/* 类选择器 */
+.sp{
+    color: grey;
+}
+/* 
+同时为多个选择器设置同样的样式 
+也叫作并集选择器
+*/
+#f1,#f2,#f3,#f4{
+    color: yellow;
+}
+
+/* 子元素选择器 */
+.box > p {
+    width: 400px;
+    margin: auto;
+    text-align: center;
+}
+/* 
+    A B{}祖先元素选择器
+    A > B{}后代元素选择器
+    A + B{} 或者 A ~ B{}兄弟元素选择器 
+    兄 + 弟{}选择紧随其后的一个兄弟;
+    兄 ~ 弟{}选择其后面所有兄弟;
+*/

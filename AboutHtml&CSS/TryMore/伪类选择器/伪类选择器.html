@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>伪类选择器</title>
+    <style>
+        /* 
+        选择第一个元素:
+            div p:first-child{color: red;} 
+        限制：第一个如果不是p元素则一个都不选
+        选择最后一个元素:
+            div p:last-child{color: red;} 
+        限制：最后一个如果不是p元素则一个都不选
+        */
+        /* 
+        选择第一个元素:
+            div p:first-of-type{color: red;} 
+        选择最后一个元素:
+            div p:last-of-type{color: red;} 
+        */
+        /* 
+        选择第几个元素
+            p:nth-child(n){color:red;}
+        限制：第n个元素如果不是p元素则一个都不选
+            特殊值：odd 奇数 even 偶数 n全部
+        */
+        /* 
+        选择第几个元素
+            p:nth-of-type(n){color:red;}
+            特殊值：odd 奇数 even 偶数 n全部
+        */
+        p:only-child{
+                color: red;
+        }
+        p:only-of-type{
+                color: red;
+        }
+        /* 唯一子元素 */
+        /* p:nth-last-child(-n+4){选中最后4个元素
+            color: red;
+        } */
+        /* p:nth-last-child(5n){倒数5的倍数
+            color: red;
+        } */
+        /* p:nth-last-child(3n+1){从第一个开始每3个一次
+            color: red;
+        } */
+        /* p:empty{选中空的元素
+            width: 20px;height: 20px;
+            background-color: red;
+        } */
+        /* p:not(.p1){除了某个元素
+            background-color: grey;
+        } */
+        a{
+            font-size: 100px;
+        }
+        
+        
+        a:link{
+            color: grey;
+        }
+        a:visited{
+            color: hotpink;
+        }
+        a:hover{
+            color: red;
+        }
+        /* 下面两个不仅仅适用于超链接 */
+        a:active{
+            color: indigo;
+        }
+        /* 由于隐私的原因，visited这个伪类
+        只能修改字体颜色，其余样式都不能修改 */
+    </style>
+</head>
+
+<body>
+    <!-- 
+        伪类选择器，一般用来表示元素的一些特殊的状态或者特殊的位置
+    -->
+    <div>
+        <p>我是第一个p元素</p>
+        <p>我是第二个p元素</p>
+        <p class="p1">我是第三个p元素</p>
+        <p>我是第四个p元素</p>
+        <p>我是第五个p元素</p>
+        <p>我是第六个p元素</p>
+        <p></p>
+    </div>
+    <!--
+        a的伪类
+        :link
+            -没访问过的连接
+        :visited
+            -访问过的
+        :hover
+            -触碰鼠标时
+        :active
+            -鼠标点击时
+    -->
+    <a href="https://www.bilibili.com/" target="blank">访问过的</a>
+    <br>
+    <a href="https://www..com/" target="blank">没访问过的</a>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	
+	</head>
+		<style>
+			#navigation{
+				text-align: center;
+			}
+			.item{								/* 类选择器 内部样式 */
+				text-decoration: none;
+				color: #000000;
+				border-right: solid 1px #808080;
+				padding: 0 15px;
+			}
+			
+			#navigation .last{	/* 记得空格 */
+				border: none;
+			}
+		</style>
+	<body>
+		<div id="navigation">
+			<a href="" class="item">首页</a>
+			<a href="" class="item">办公家具</a>
+			<a href="" class="item">数码科技</a>
+			<a href="" class="item">母婴</a>
+			<a href="" class="item">团购</a>
+			<a href="" class="item last" >秒杀活动</a>	<!-- 行内样式-->
+		</div>
+		
+	</body>
+</html>
+
+<!-- 行内样式表优先级大于内部样式表 -->
+<!-- ID选择器优先级大于类别选择器 -->

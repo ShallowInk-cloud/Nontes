@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>垂直方向布局</title>
+    <style>
+    .box-b{
+        width: 100px;
+        /*height: auto;*/
+        border: 10px solid black;
+        height: 400px;
+        /*溢出部分显示*/
+        /*overflow: visible;*/
+
+        /*溢出部分消失*/
+        /*overflow: hidden;*/
+
+        /*出现滚动条*/
+        /*overflow: scroll;*/
+
+        /*根据需要生成滚动条*/
+        /*overflow: auto;*/
+        display: flex;
+    }
+
+    .box-s{
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        background: #bbaacc;
+        align-self: center;
+    }
+
+
+    </style>
+</head>
+<body>
+    <div class="box-b">
+        <div class="box-s"></div>
+    </div>
+
+</body>
+</html>

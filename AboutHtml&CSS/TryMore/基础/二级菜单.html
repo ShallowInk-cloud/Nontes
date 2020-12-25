@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>二级菜单</title>
+    <style>
+        *{
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-decoration: none;
+        }
+
+        ul>li{
+            font-size: 40px;
+            width: 90px;
+            margin: 50px;
+            border: 1px solid black;
+        }
+        .inner>li{
+            display: none;
+            margin: 0;
+            padding:0;
+        }
+        /*a可用于只浏览不点击的菜单*/
+        /*.outer > li >a:hover + .inner>li{*/
+        /*    display: block;*/
+        /*}*/
+        .outer > li:hover  .inner>li{
+            display: block;
+            /*对于hover来说，设置的属性默认是选中元素的子元素，如果是兄弟元素记得加选择器*/
+        }
+    </style>
+</head>
+<body>
+
+<ul class="outer">
+    <li>
+        <a href="#">商品</a>
+
+        <ul class="inner">
+            <li><a href="#">介绍</a></li>
+            <li><a href="#">介绍</a></li>
+            <li><a href="#">介绍</a></li>
+        </ul>
+    </li>
+    <li>
+        <a href="#">商品</a>
+
+        <ul class="inner">
+            <li><a href="#">介绍</a></li>
+            <li><a href="#">介绍</a></li>
+            <li><a href="#">介绍</a></li>
+        </ul>
+    </li>
+    <li>
+        <a href="#">商品</a>
+        <ul class="inner">
+            <li><a href="#">介绍</a></li>
+            <li><a href="#">介绍</a></li>
+            <li><a href="#">介绍</a></li>
+        </ul>
+    </li>
+</ul>
+</body>
+
+</html>

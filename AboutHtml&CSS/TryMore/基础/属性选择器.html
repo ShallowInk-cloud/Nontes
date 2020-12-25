@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 100px;
+            margin: 10px;
+        }
+        *[title]{
+            background-color:yellow;
+        }
+        *[bye]{
+            background-color: red;
+        }
+        *[title='Good' i]{
+            /* 尾部加i代表大小写不敏感 */
+            background-color:black;
+        }
+        *[title^='z']{
+            /* 开头字母为-- */
+            background-color: blue;
+        }
+        *[title$='a']{
+            /* 结尾字母为-- */
+            background-color: purple;
+        }
+        *[title*='w']{
+            /* 带有w的属性 */
+            border: solid 10px black;
+        }
+        /* 属性选择器 */
+    </style>
+</head>
+<body>
+    <div title="hello"></div>
+    <div bye="诶？"></div>
+    <div title="world"></div>
+    <div title="good"></div>
+    <div title="zh"></div>
+    <div title="aaca"></div>
+    <div title="ow"></div>
+</body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            height: 100vh;
+            width: 100vw;
+            background: aqua;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box {
+            width: 300px;
+            height: 300px;
+            background: #ffffff;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .item {
+            width: 1200px;
+            height: 100%;
+            display: flex;
+            animation-name: speed;
+            animation-duration: 4s;
+            animation-timing-function: steps(4);
+            animation-iteration-count: infinite;
+        }
+
+        .item>div {
+            flex: 1;
+            text-align: center;
+            line-height: 300px;
+        }
+
+        .item:hover,
+        .item:hover+ul::after {
+            animation-play-state: paused;
+        }
+
+        /* .item:hover, li:first-child::after{
+            animation-play-state: paused;
+       } */
+        ul,
+        li {
+            list-style: none;
+        }
+
+        ul {
+            top: 80%;
+            position: absolute;
+            display: flex;
+            width: 100px;
+            left: 100px;
+        }
+
+        li {
+            /* flex: 1; */
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: rgba(0, 0, 0, 0.5);
+            text-align: center;
+            margin-right: 5px;
+            color: #ffffff;
+
+        }
+
+        ul::after {
+            content: "";
+            position: absolute;
+            background: rgba(255, 0, 0, 0.4);
+            left: 0;
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            animation-name: hd;
+            animation-duration: 4s;
+            animation-timing-function: steps(4);
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes speed {
+            to {
+                transform: translateX(-1200px);
+            }
+        }
+
+        @keyframes hd {
+            to {
+                transform: translateX(100px);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="item">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+        </div>
+        <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+        </ul>
+    </div>
+</body>
+
+</html>

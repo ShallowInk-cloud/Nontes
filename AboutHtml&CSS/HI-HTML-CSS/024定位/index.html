@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			#box{
+				background-image: url(img/1.jpg);
+				width: 500px;
+				height: 263px;
+				margin: 20px auto 10px;
+				position: relative;				/* 关联背景 */
+			}
+			#box .p1{
+				left: 50px;top: 50px;
+				position: absolute;		/* 固定定位为position:fixed */		
+			}
+			.p1 .point{
+				width: 15px; height: 15px;
+				background-color: #0000FF;
+				float:left
+			}
+			.p1 .info{
+				float: left;
+				line-height: 15px;
+			}
+			
+			
+		</style>
+	</head>
+	<body>
+		<div id="box">
+			<div class="p1">
+				<span class="point"></span>
+				<span class="info">猜猜这是哪</span>
+			</div>
+		</div>
+	</body>
+</html>

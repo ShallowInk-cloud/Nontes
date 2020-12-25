@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box1{
+            width: 500px;height: 500px;
+            background-color: #bfa;
+            margin-left: 100px;
+            position: relative;
+        }
+        .box2{
+            height: 200px;width: 200px;
+            background-color: #ffff00;
+
+            position: fixed;
+            /* 固定定位 */
+            /* 大部分和绝对定位相似 */
+            /* 固定定位只根据浏览器视口定位 */
+            left: 20%;
+            top: 20%;
+            z-index: 4;
+        }
+        .box3{
+            width: 100px;height: 100px;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">
+        <!-- <div class="box2"></div> -->
+        <div class="box3"></div>
+    </div>
+    <div class="box2"></div>
+    <div class="box1"></div>
+    <div class="box1"></div>
+    <div class="box1"></div>
+    <div class="box1"></div>
+    <div class="box1"></div>
+</body>
+</html>

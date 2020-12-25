@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>高度塌陷(非BFC法)</title>
+    <style>
+        .box1{
+            width: 300px;
+
+            border: 10px solid red;
+        }
+        .box2{
+            width: 100px;
+            height: 100px;
+            background-color: greenyellow;
+            float:left;
+
+        }
+        .box3{
+            clear:both;
+        }
+        /*由上得出结论*/
+        .box4{
+            width: 300px;
+            margin: 10px 0;
+            border: 10px solid red;
+        }
+        .box5{
+            width: 100px;
+            height: 100px;
+            background-color: greenyellow;
+            float:left;
+        }
+        .box4::after{
+            content: '';
+            display: block;
+            clear:both;
+        }
+        /*
+        .clearfix::after{
+--哪个塌陷加哪个类
+           content: '';
+           display: block;
+           clear:both;
+           */
+
+         .big{
+             width: 200px;
+             background-color: yellow;
+             height: 200px;
+         }
+         .small{
+             width: 100px;
+             height: 100px;
+             background-color: black;
+             /*margin-top: 20px         子元素mt传递给了父元素*/
+             margin-top: 200px;
+
+         }
+         .big::before{
+             content: '';
+             display: table;
+             /*解决子元素顶边距传递问题*/
+
+             /*如果两个问题同时发生*/
+
+            /*
+                两个问题一起解决:
+             .clearfix::before,
+             .clearfix::after{
+                content: '';
+                display: table;
+            }
+
+            */
+
+
+
+
+         }
+    </style>
+</head>
+<body>
+    <div class="box1">
+        <div class="box2"></div>
+        <div class="box3"></div>
+    </div>
+    <div class="box4">
+        <div class="box5"></div>
+
+    </div>
+
+
+
+    <div class="big">
+        <div class="small"></div>
+    </div>
+
+</body>
+</html>

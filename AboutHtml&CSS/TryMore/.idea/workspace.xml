@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cf238d92-7337-4cea-be2b-47dbef2ea62e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/背景&amp;表单/表单补充.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schematic/08.京东topbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/基础/schematic/08.京东topbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schematic/1.webp" beforeDir="false" afterPath="$PROJECT_DIR$/基础/schematic/1.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schematic/2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/基础/schematic/2.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schematic/冲啊.css" beforeDir="false" afterPath="$PROJECT_DIR$/基础/schematic/冲啊.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schematic/冲啊CSS.html" beforeDir="false" afterPath="$PROJECT_DIR$/基础/schematic/冲啊CSS.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schematic/初始html框架介绍.html" beforeDir="false" afterPath="$PROJECT_DIR$/基础/schematic/初始html框架介绍.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schematic/字体.html" beforeDir="false" afterPath="$PROJECT_DIR$/基础/schematic/字体.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schematic/文本样式.html" beforeDir="false" afterPath="$PROJECT_DIR$/基础/schematic/文本样式.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schematic/矢量图.html" beforeDir="false" afterPath="$PROJECT_DIR$/基础/schematic/矢量图.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/一些CSS/img/dog.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/背景&amp;表单/img/dog.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/一些CSS/背景.html" beforeDir="false" afterPath="$PROJECT_DIR$/背景&amp;表单/背景.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/一些CSS/背景图片.html" beforeDir="false" afterPath="$PROJECT_DIR$/背景&amp;表单/背景图片.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/一些CSS/表单.html" beforeDir="false" afterPath="$PROJECT_DIR$/背景&amp;表单/表单.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/一些CSS/表单（服务器）.html" beforeDir="false" afterPath="$PROJECT_DIR$/背景&amp;表单/表单（服务器）.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/一些CSS/表格.html" beforeDir="false" afterPath="$PROJECT_DIR$/背景&amp;表单/表格.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/比较简单的一些东西/display.html" beforeDir="false" afterPath="$PROJECT_DIR$/基础/display.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/比较简单的一些东西/二级菜单.html" beforeDir="false" afterPath="$PROJECT_DIR$/基础/二级菜单.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/比较简单的一些东西/像素" beforeDir="false" afterPath="$PROJECT_DIR$/基础/像素" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/比较简单的一些东西/圆角.html" beforeDir="false" afterPath="$PROJECT_DIR$/基础/圆角.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/比较简单的一些东西/垂直方向布局.html" beforeDir="false" afterPath="$PROJECT_DIR$/基础/垂直方向布局.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/比较简单的一些东西/导航条.html" beforeDir="false" afterPath="$PROJECT_DIR$/基础/导航条.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/比较简单的一些东西/属性选择器.html" beforeDir="false" afterPath="$PROJECT_DIR$/基础/属性选择器.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/比较简单的一些东西/嵌套关系.html" beforeDir="false" afterPath="$PROJECT_DIR$/基础/嵌套关系.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/比较简单的一些东西/文字的居中.html" beforeDir="false" afterPath="$PROJECT_DIR$/基础/文字的居中.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/比较简单的一些东西/文档流.html" beforeDir="false" afterPath="$PROJECT_DIR$/基础/文档流.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/比较简单的一些东西/浮动.html" beforeDir="false" afterPath="$PROJECT_DIR$/基础/浮动.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/比较简单的一些东西/浮动元素与BFC.html" beforeDir="false" afterPath="$PROJECT_DIR$/基础/浮动元素与BFC.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/比较简单的一些东西/盒子.html" beforeDir="false" afterPath="$PROJECT_DIR$/基础/盒子.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/比较简单的一些东西/继承.html" beforeDir="false" afterPath="$PROJECT_DIR$/基础/继承.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/比较简单的一些东西/行内元素.html" beforeDir="false" afterPath="$PROJECT_DIR$/基础/行内元素.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/比较简单的一些东西/边距.html" beforeDir="false" afterPath="$PROJECT_DIR$/基础/边距.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/比较简单的一些东西/选择器.html" beforeDir="false" afterPath="$PROJECT_DIR$/基础/选择器.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/比较简单的一些东西/阴影.html" beforeDir="false" afterPath="$PROJECT_DIR$/基础/阴影.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/比较简单的一些东西/高度塌陷.html" beforeDir="false" afterPath="$PROJECT_DIR$/基础/高度塌陷.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/比较简单的一些东西/默认样式.html" beforeDir="false" afterPath="$PROJECT_DIR$/基础/默认样式.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1l2gg6YdUh9q3LEqCyeOJZb0xQc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\gitcode\notes\AboutHtml&amp;CSS\TryMore\基础" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.表单补充.html">
+    <configuration name="默认样式.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/再练练/不想建文件夹了/默认样式.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="表单补充.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/TryMore/背景&amp;表单/表单补充.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="嵌套关系.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/再练练/不想建文件夹了/嵌套关系.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="文字的居中.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/再练练/不想建文件夹了/文字的居中.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="二级菜单.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/再练练/不想建文件夹了/二级菜单.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="盒子.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/再练练/不想建文件夹了/盒子.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="浮动元素的特点.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/再练练/不想建文件夹了/浮动元素的特点.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="高度塌陷.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/再练练/不想建文件夹了/高度塌陷.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="继承.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/再练练/不想建文件夹了/继承.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="相对定位.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/再练练/定位/相对定位.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="垂直方向布局.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/再练练/不想建文件夹了/垂直方向布局.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="圆角.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/再练练/不想建文件夹了/圆角.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="阴影.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/再练练/不想建文件夹了/阴影.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="浮动.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/再练练/不想建文件夹了/浮动.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="层级.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/再练练/定位/层级.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="导航条.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/再练练/导航条.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.表单补充.html" />
+        <item itemvalue="JavaScript Debug.默认样式.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cf238d92-7337-4cea-be2b-47dbef2ea62e" name="Default Changelist" comment="" />
+      <created>1606800709136</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606800709136</updated>
+      <workItem from="1606800710681" duration="12000" />
+      <workItem from="1606800750051" duration="12000" />
+      <workItem from="1606801132077" duration="348000" />
+      <workItem from="1606816369350" duration="11000" />
+      <workItem from="1606816427429" duration="188000" />
+      <workItem from="1606816639608" duration="88000" />
+      <workItem from="1606816748212" duration="195000" />
+      <workItem from="1606819331380" duration="623000" />
+      <workItem from="1606903458766" duration="869000" />
+      <workItem from="1606909657122" duration="1200000" />
+      <workItem from="1606912216655" duration="3425000" />
+      <workItem from="1606970500627" duration="8716000" />
+      <workItem from="1606983057834" duration="11443000" />
+      <workItem from="1607066008189" duration="9132000" />
+      <workItem from="1607145674011" duration="7498000" />
+      <workItem from="1607251171177" duration="947000" />
+      <workItem from="1607337106404" duration="1194000" />
+      <workItem from="1608808681801" duration="3780000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="false" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="false" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="false" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="false" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="false" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/$_html.dat" NAME="边距.html Coverage Results" MODIFIED="1606970920945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>相对定位</title>
+    <style>
+
+        .box1{
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            opacity: 0.6;
+        }
+        .box2{
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+
+            /*
+            TODO:
+            margin-left: 100px;
+            margin-top: -100px;
+            */
+
+            /*默认值：position: static;*/
+
+            /*开启相对定位：*/
+            position: relative;
+            /*
+            开启定位后元素可以通过四个方向的偏移量
+            来控制元素的距离：
+                top 元素与其定位位置的顶部距离
+                bottom 元素与其定位位置的底部距离
+                left 元素与其定位位置的左侧距离
+                right 元素与其定位位置的右侧距离
+            */
+            left: 50px;
+            top: -50px;
+            opacity: 0.6;
+            /*相对定位相对于原来位置移动*/
+            /*一般只需要两个值就能确定一个元素的位置*/
+
+            /*相对定位不会使元素脱离原来的文档流*/
+
+
+        }
+        .box3{
+            width: 100px;
+            height: 100px;
+            background-color: black;
+            /*
+            TODO:
+            margin-top: 100px;
+            */
+
+            position: relative;
+            left: 100px;
+            top: -100px;
+            opacity: 0.6;
+            /*相对定位会让元素提升层级*/
+            /*相对定位也不会改变元素的性质*/
+        }
+    </style>
+</head>
+<body>
+<div class="box1"></div>
+<div class="box2"></div>
+<div class="box3"></div>
+</body>
+</html>

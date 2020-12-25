@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=  , initial-scale=1.0">
+    <title>背景</title>
+    <style>
+        .box1{
+            width: 400px;height: 400px;
+            padding: 10px;
+            border: 10px red double;
+
+            /* background-clip 设置背景显示的区域
+                可选值：
+                    border-box：背景会延伸到边框 
+                    padding-box 背景会设置到内边距
+                    content-box 背景会设置到内容区
+             */
+            background-clip: content-box;
+            
+        }
+        .img{
+            width: 400px;
+            height: 400px;
+            background-image: url(img/dog.jpeg) ;
+            background-color:#bfc;
+            /* 背景图片和背景颜色可以同时生效 */
+            background-size: 400px ;
+            background-repeat: no-repeat;
+            /* 
+                background-repeat 设置背景图片的重复方式
+                可选值：
+                    repeat 默认值 双方向重复
+                    repeat-x 水平方向重复
+                    repeat-y 垂直方向重复
+                    no-repeat 不重复
+             */
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">
+        <div class="img"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>冲鸭CSS</title>
+    <link rel="stylesheet" href="冲啊.css">
+    <style>
+        /* 
+        将样式写到style标签中，
+        然后通过CSS选择器选中指定的元素并为其设置样式。
+        将html和CSS代码分离开，使得CSS选择器可以复用，并且方便后期的维护
+
+        可惜只能在当前页面复用
+        */
+        /* div{
+            width: 420px;height: 40px;
+            background-color: slateblue;
+        }
+        p{
+            font-size: 60px;
+            color:white;
+            background-color: tomato;
+        } */
+    </style>
+</head>
+
+<body>
+    <!-- 
+        CSS（层叠样式表）
+            -用来处理网页的表现
+            -网页中所有外在显示的效果都由CSS来控制
+    -->
+    <!-- 
+        编写CSS的方法 
+        1、可以直接将CSS样式编写在标签的style属性中,这样会导致结构和表现耦合，不方便代码的复用，并且不方便后期的维护，所以在开发中永远不要使用内联样式
+        2、可以将样式编写到style标签中(style标签需要写在head里)
+        3、可以将CSS代码编写到一个外部的CSS文件中，通过link标签将其引入页面
+    -->
+    <!-- <div style="width: 420px;height: 60px;background-color:slateblue;"></div>
+    <p style="color: skyblue;font-size: 60px;">
+        落霞与孤鹜齐飞，<br> 秋水共长天一色。
+    </p> -->
+    <p id="f1">
+        落霞与孤鹜齐飞，<br> 秋水共长天一色。
+    </p>
+    <p id="special">
+        落霞与孤鹜齐飞，<br> 秋水共长天一色。
+    </p>
+    <p class="sp">
+        落霞与孤鹜齐飞，<br> 秋水共长天一色。
+    </p>
+    <p class="sp">
+        落霞与孤鹜齐飞，<br> 秋水共长天一色。
+    </p>
+    <p id="f2">
+        落霞与孤鹜齐飞，<br> 秋水共长天一色。
+    </p>
+    <p class="sp">
+        落霞与孤鹜齐飞，<br> 秋水共长天一色。
+    </p>
+    <p id="f3">
+        落霞与孤鹜齐飞，<br> 秋水共长天一色。
+    </p>
+    <p id="f4">
+        落霞与孤鹜齐飞，<br> 秋水共长天一色。
+    </p>
+    <div class="box">
+        <p>此处加字</p>
+    </div>
+    <p class="box"></p>
+</body>
+
+</html>
+
+<!--
+    一个标签可以设置多个类
+    <p class="p1 p2 p3"></p>
+
+-->

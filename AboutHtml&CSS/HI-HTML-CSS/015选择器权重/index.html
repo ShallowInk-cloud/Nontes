@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		
+	</head>
+	<style type="text/css">
+			#p1{
+				color: blue;	/* ID选择器 */
+			}
+			*{
+				color: orange;/* 通用选择器 */
+			}
+			
+			.pp{
+				color: yellow;	/* 类选择器 */
+			}
+			p{
+				color: antiquewhite;	/* 标签选择器 */
+			}
+			
+		</style>
+	<body>
+		<p class="pp" id="p1" style="color:slateblue">
+			猜猜我是什么颜色
+		</p>
+	</body>
+</html>
+<!-- 
+（优先级）行内样式<...style="..."> 大于 ID选择器 #box{...} 大于 类选择器 .con{...}
+	大于 标签选择器 div{...} 大于 通用选择器 *{...}
+-->
+<!-- 
+	如果出现复合则应该计算权重值
+	通用选择器*权重值为0
+	标签（元素）选择器 div、p...权重值为1
+	类（别）选择器 .act .nav... 权重值为10
+	ID选择器 #btn #box 权重值为100
+	行内样式 权重值1000
+	
+	例如：#box p .tt  ID选择器+ 标签选择器+类选择器 为100+1+10
+ -->

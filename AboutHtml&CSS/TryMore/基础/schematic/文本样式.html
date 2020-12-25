@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>字体样式</title>
+    <style>
+        p{
+            text-indent: 20px;
+            width: 300px;
+            background-color: #bfa;
+
+            /* text-indent: xpx;    首行缩进*/
+            /* white-space: nowrap;     不换行 */
+            /* white-space: normal;    自动换行 */
+            /* white-space:pre;    预格式 保留你代码中的格式*/
+            white-space: nowrap;
+
+            overflow:hidden;
+
+            /* text-overflow: ; 如何表示溢出内容 */
+            text-overflow: ellipsis;
+
+            /* word-spacing: 1px;   空格距离 */
+            /* letter-spacing: 1px;    单词间距离 */
+
+        }
+        .special{
+            /* text-decoration: wavy green underline; */
+            text-decoration: wavy green overline;
+
+        }
+    </style>
+</head>
+<body>
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum totam saepe maxime laborum reiciendis ab blanditiis a tempore, illum, ipsum libero laboriosam animi veniam officia, incidunt quod commodi soluta ea!
+    </p>
+    <p class="special">Hello</p>
+</body>
+</html>

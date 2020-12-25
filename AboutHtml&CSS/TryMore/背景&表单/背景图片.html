@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>背景图片</title>
+    <style>
+            .box1{
+                width: 500px;
+                height: 500px;
+                background-color: #bfa;
+                background-image: url(img/dog.jpeg);
+
+                /* background-size: 100%; */
+                /* 意思为宽度百分百 */
+                background-repeat: no-repeat;
+                /* 
+                background-size: cover;  让背景把元素充满
+                确保元素的比例不变
+                */
+                /*
+                    需要两个值作为参数：宽度 高度
+                        可选值：
+                            contain 完整显示图片，可能会有位置没有图片
+
+                            cover 让图片将元素填满，可能 有部分图片从元素
+                            中溢出
+                            
+                 */
+                /* background-position  用来设置图片的位置
+                    top left right bottom center   
+                    指定偏移量来设置图片的位置
+                    background-position： 水平方向偏移量 垂直方向偏移量
+                    正值靠中间走，负值往外走
+                 */
+                background-size: 100px;
+                background-position: center;
+                /* 
+                background-origin定义的是背景位置（background-position）的起始点；而background-clip是对背景（图片和背景色）的切割。
+                 */
+
+                /* 
+                background-color: #fff; 
+                background-image: url();
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: 100px;
+                background-origin: padding-box;
+                background-clip: content-box;
+                background-attachment: fixed;
+                */
+                
+                /* 
+                background 是设置背景的简写属性 属性值没有顺序要求 背景相关的样式都可以在background中设置
+
+                先写position 后面加 / 再写size
+                先写origin 再写 clip
+                 */
+            }
+    </style>
+</head>
+<body>
+    <div class="box1"></div>
+</body>
+</html>

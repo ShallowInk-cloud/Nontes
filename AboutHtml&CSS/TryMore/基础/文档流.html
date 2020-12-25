@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>文字流</title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+            background: #bfa;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        123123123123131231231123
+        <br>
+        aaaasasasasasasasasasasasdadasdfasdasfsasd
+    </div>
+    <br>
+    <div>
+        啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦
+    </div>
+
+<!--
+上面的测试可以发现
+数字和英文不会自动换行而中文会自动换行
+
+文档流：文档流是网页中的一个位置，默认情况页面中所有元素都在文档流中排列（处于网页底层）
+块元素在文档流中
+1、自上而下排列且独占一行
+2、默认宽度与父元素一致
+3、默认高度被内容撑开
+
+行内元素在文档流中
+1、自左向右水平排列
+2、一行内容不下所有元素。自动换行
+3、默认宽高被内容撑开
+
+
+-->
+</body>
+</html>

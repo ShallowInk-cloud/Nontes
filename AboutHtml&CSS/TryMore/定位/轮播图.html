@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+        ul{
+            list-style: none;
+        }
+        .outer{
+            width: 590px;height: 470px;
+            background-color: #bfa;
+            margin: 50px auto;
+            position: relative;
+        }
+        .img_list li{
+            position:absolute;
+            left: 0;
+            top: 0;
+        } 
+        .img_list li:nth-child(first){
+            z-index: 1;
+        }
+        .pointer a{
+            width: 10px;height: 10px;
+            float: left;
+            margin: 0 1px;
+            background-color:white;
+            opacity: 0.5;
+            border-radius: 50%;
+        }
+        .pointer{
+            height: 20px;
+            width: 100px;
+            position: absolute;
+            right: 0;
+            left: 0;
+            bottom: 0;
+
+            margin:0 auto;
+        }
+        .pointer a:hover{
+            opacity: 1;
+        }
+        .pointer a:nth-of-type(1):hover + .img_list li:nth-of-type(1){
+            z-index: 5;
+        }
+        .pointer a:nth-of-type(2):hover + .img_list li:nth-of-type(2){
+            z-index: 5;
+        }
+    </style>
+</head>
+<body>
+    <div class="outer">
+        <ul class="img_list">
+            <li><a href="#"><img src="img/1.jpg.webp" alt=""></a></li>
+            <li><a href="#"><img src="img/2.webp" alt=""></a></li>
+            <li><a href="#"><img src="img/1.jpg.webp" alt=""></a></li>
+            <li><a href="#"><img src="img/1.jpg.webp" alt=""></a></li>
+            <li><a href="#"><img src="img/1.jpg.webp" alt=""></a></li>
+            <li><a href="#"><img src="img/1.jpg.webp" alt=""></a></li>
+            <li><a href="#"><img src="img/1.jpg.webp" alt=""></a></li>
+            <li><a href="#"><img src="img/1.jpg.webp" alt=""></a></li>
+            
+        </ul>
+        <div class="pointer">
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+        </div>
+    </div>
+</body>
+</html>

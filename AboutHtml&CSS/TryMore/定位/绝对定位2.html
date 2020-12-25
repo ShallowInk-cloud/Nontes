@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>绝对定位</title>
+    <style>
+        .box1{
+            width: 400px;
+            height: 400px;
+            background-color: green;
+            position: relative;
+        }
+        .box2{
+            width: auto;
+            height: auto;
+            /* 充满包含块 */
+            background-color: yellow;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            /* 包含块中垂直水平双方向居中 */
+            /* 谁是auto谁就会被调整 都不是则会到一个位置 */
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">
+        <div class="box2"></div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>内外边距</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .box1{
+            width: 100px;
+            height: 100px;
+            background-color: #bac;
+            /*border: 10px solid #baf;*/
+            /*padding: 50px;*/
+            /*margin-top:10px;*/
+            /*margin-bottom:10px ;   */
+            /*
+            2个或以上的块级盒模型相邻的垂直margin会重叠
+            但是水平边距永远不会重叠
+            水平边距同号取大，异号取和
+            */
+        }
+        .box2{
+            width: 100px;
+            height: 100px;
+            background-color: #bac;
+            border: 10px solid #baf;
+            padding: 50px;
+            margin-top: 10px;
+            margin-left:100px;
+        }
+        .big{
+            /*margin-top: 50px;*/
+            margin-left: 30px;
+
+            width: 400px;
+            height: 300px;
+            border: 5px solid black;
+            /*padding: 50px;*/
+        }
+        .box3{
+            width: 100px;
+            height: 100px;
+            background-color: #bac;
+            border: 10px solid #baf;
+            padding: 50px;
+            /*自动左右居中*/
+            /*margin:auto;*/
+            margin-left: auto;
+            margin-right: auto;
+            /*这两行与上面被注释的边距设置声明效果相同*/
+
+            margin-top: 10px;
+        }
+        .ss{
+            width: 30px;
+            height: 30px;
+            background: yellow;
+            margin-top: 20px;
+            /*
+            父子元素的外边距边缘贴合，子元素的外边距会传递给父元素
+            但是父元素内有内边距或者内容将父子元素外边距边缘隔开
+            甚至边框也可以隔开
+            父元素就不会继承子元素所贴合的边距
+
+            可以通过::before来解决：
+            .father-box::before{
+                content:'';
+                display:table;
+                }
+            */
+
+        }
+    /*
+    一个块元素宽的大小组成：
+    左外边距 左边框 左内边距 元素宽 右内边距 右边框 右外边距
+    7个值之和一定要等于父元素宽度
+    -如果七个值的和相加不等于父元素的宽度，则属于过度约束，浏览器会自动调整父元素外边距的值
+    1、子元素过小则自动把子元素padding-right增加至合适大小
+    2、子元素过大则自动把子元素右边距缩小为负数
+    #这个特性也直接导致了块元素独占一行的特性
+    */
+    </style>
+</head>
+
+<body>
+    <div class="box1"><div class="ss"></div></div>
+    <div class="box2"></div>
+    <div class="big"><div class="box3"></div></div>
+
+</body>
+</html>
+

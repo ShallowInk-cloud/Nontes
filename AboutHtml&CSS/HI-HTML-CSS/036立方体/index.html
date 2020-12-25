@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			#box{
+				width: 300px;height: 300px;
+				
+				font-size: 80px;text-align: center;line-height: 300px;
+				margin: 150px 150px;
+				transition: 2s;
+				transform: rotateY(-15deg) rotateX(-10deg);
+				transform-style: preserve-3d;
+			}
+			#box div{
+				border: 1px dashed black;
+				width: 300px;height: 300px;position: absolute;left: 0;top: 0;
+				transition: 2s;
+			}
+			#box .flat1{
+				background-color: rgba(255,0,0,0.5);transform: translateY(-150px) rotateX(90deg);/* 上 */
+			}
+			#box .flat2{
+				background-color: rgba(255,144,0,0.5);transform: translateY(150px) rotateX(-90deg);/* 下 */
+			}
+			#box .flat3{
+				background-color: rgba(255,255,0,0.5);transform: translateX(-150px) rotateY(90deg);/* 左 */
+			}
+			#box .flat4{
+				background-color: rgba(0,255,122,0.5);transform: translateX(150px) rotateY(90deg);/* 右 */
+			}
+			#box .flat5{
+				background-color: rgba(0,255,255,0.5);transform: translateZ(150px) ;/* 前 */
+			}
+			#box .flat6{
+				background-color: rgba(255,0,0,0.5);transform: translateZ(-150px) ;/* 后 */
+			}
+		</style>
+	</head>
+	<body>
+		<div id="box">
+			<div class="flat1">上</div>
+			<div class="flat2">下</div>
+			<div class="flat3">左</div>
+			<div class="flat4">右</div>
+			<div class="flat5">前</div>
+			<div class="flat6">后</div>
+		</div>
+	</body>
+</html>

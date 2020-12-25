@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--IE8及以下不兼容-->
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>各种圆角</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            float:left;
+            background-color: black;
+            margin: 2px;
+        }
+        .ex-1{
+            border-radius: 40px;
+        }
+        .ex-2{
+            border-top-left-radius: 50px;
+        }
+        .ex-3{
+            border-top-left-radius: 50px 20px;
+            /*top为20pxwidth为50px画弧*/
+        }
+        .ex-4{
+            border-top-right-radius: 50px 20px;
+            /*top为20pxwidth为50px画弧*/
+        }
+        .ex-5{
+            border-top-right-radius: 50%;
+
+        }
+        .ex-6{
+            border-radius: 10px 20px 40px 50px;
+            /*左上-右上-右下-左下*/
+            /*outline: 1px red solid;*/
+            /*不占空间的边框*/
+        }
+    </style>
+</head>
+<body>
+    <div class="ex-1"></div>
+    <div class="ex-2"></div>
+    <div class="ex-3"></div>
+    <div class="ex-4"></div>
+    <div class="ex-5"></div>
+    <div class="ex-6"></div>
+</body>
+</html>

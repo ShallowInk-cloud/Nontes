@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<!-- 文档声明  告诉浏览器当前网页的版本-->
+<html lang="zh">
+<!-- 指明网站的语言为中文网站 -->
+<head>
+    <meta charset="UTF-8">
+    <!-- meta为自结束标签(空标签)，meta为源数据，用来设置网站基本信息 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 
+        信息名为viewport,宽与设备屏幕等宽，图片文字比为1
+        meta标签用来设置网页中的原数据，它里边的内容不被用户查看
+            一般用来告诉浏览器如何解析网页，或者告诉搜索引擎网页的主要内容
+
+        可选属性：
+            name：
+            要设置的属性的名字
+            content：
+            要设置属性的内容
+        -->
+    <title>基础网站带笔记</title>
+    <meta name="decription" content="这是一个非常非常简单的网站">
+    <!-- description用于告诉浏览器网站的描述，等于网站的自我介绍 ，主动给搜索引擎提供介绍内容-->
+    <meta name="keywords" content="HTML5,Java,大数据">
+    <!-- 影响搜索引擎的搜索，多个关键字用逗号隔开 -->
+    <!-- <meta http-equiv="refresh" content="3;url=https://www.baidu.com"> -->
+    <!-- 
+            用于设置请求的重定向 
+            三秒后跳转到百度
+        -->
+    <style>
+        * {
+            padding: 0;
+            list-style: none;
+            margin: 0;
+        }
+
+        header {
+            height: 80px;
+            background: coral;
+            text-align: center;
+            line-height: 40px;
+        }
+
+        footer {
+            height: 40px;
+            background-color: saddlebrown;
+            text-align: center;
+            line-height: 40px;
+        }
+
+        main {
+            height: auto;
+            line-height: normal;
+            background-color: pink;
+            margin: 10px;
+            overflow: hidden;
+
+        }
+
+        main .main-left {
+            width: 80%;
+            float: left;
+        }
+
+        main .main-right {
+            background-color: yellowgreen;
+            width: 20%;
+            height: 700px;
+            float: left;
+
+        }
+
+        section {
+            background: yellow;
+            margin: 10px;
+            text-align: center;
+        }
+
+        article {
+            margin: 10px;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            text-align: center;
+        }
+
+        nav {
+            background: #000;
+            color: white;
+        }
+
+        main .main-right .side {
+            word-wrap: break-word;
+            font-size: 70px;
+            text-align: center;
+            vertical-align: center;
+            padding: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>我是网页的头部</h1>
+        <nav>页面导航栏</nav>
+        <!-- 导航栏实现用nav标签 -->
+        
+    </header>
+    <!-- 
+        header 表示网页的头部 主要放置一些logo、导航、搜索框等内容
+        搜索引擎可识别
+    -->
+    <main>
+        <div class="main-left">
+            <h2>这边开始网页的主体内容：</h2>
+            <a id="top" href="#bottom">前往底部</a>
+            <article>
+                <h2>其一</h2>
+                <p>
+                    少小离家<i>老大回</i>，<br>
+                    乡音无改<b>鬓毛衰</b>。<br>
+                    儿童相见不相识，<br>
+                    笑问客从何处来。
+<!--
+                    i标签斜体，b标签加粗
+                    i标签也有icon的意思，表示些小图标
+-->
+
+                </p>
+                <q>我是行内元素，我是短引用，我有双引号</q>
+                <blockquote>
+                    我是块元素<br>
+                    我是长引用<br>
+                    一般我可以自动缩进<br>
+                    反正我独占一行
+                </blockquote>
+            </article>
+            <p>我感觉不错</p>
+            <!-- 段落标签 -->
+            <h1>希望人没事啊！</h1>
+            <h2>希望人没事啊！</h2>
+            <h3>希望人没事啊！</h3>
+            <h4>希望人没事啊！</h4>
+            <h5>希望人没事啊！</h5>
+            <h6>希望人没事啊！</h6>
+            <!-- 
+            标题标签h1~h6
+            从h1~h6重要性依次递减
+            搜索引擎按照h1标签来判断什么最重要，其重要性仅次于title
+    
+            一般情况下标题只会用h1~h3
+    
+            h4~h6和普通文本重要性类似
+        -->
+            <article>
+                <h2>
+                    其二
+                </h2>
+                <p>
+                    千山鸟<em>飞绝</em>，<br>
+                    万径人<strong>踪灭</strong>。<br>
+                    孤舟蓑笠翁，<br>
+                    独钓寒江雪。<br>
+                </p>
+                <!-- em标签斜体版的强调 -->
+                <!-- strong标签加粗版的强调 -->
+            </article>
+
+
+
+            <!-- <br>是一个换行符 ,它也是一个自结束标签(空标签)-->
+            <p>我和你 可以隔多远</p>
+            <!--
+            所以，在html网页中，不管你打多少空格，它都只显示一个空格
+            你可以使用转义字符&nbsp强行空格，但是不推荐
+        -->
+            <article>
+                <hgroup>
+                    <h1>标题一</h1>
+                    <h2>标题二</h2>
+                </hgroup>
+                <!-- 一组标题，注重语义即可 -->
+            </article>
+        </div>
+        <!-- 理论来说，块元素都可以用div代替，一般网页最多的也是div标签 -->
+        <div class="main-right">
+            <p class="side">
+                此处为侧边栏
+            </p>
+        </div>
+    </main>
+    <!-- main标签一般一个网页里只有一个 -->
+    <hr>
+    <!-- 以前<hr>表示水平线标签，现在在H5中用来分割两个区块 -->
+    <section>
+        &nbsp;<br>
+        <!-- 空格 --> 
+        &lt;<br>
+        <!-- 小于号 -->
+        &gt;<br>
+        <!-- 大于号 -->
+        &copy;<br>
+        <!-- 版权号 -->
+        &#12320;<br>
+        <!-- &#加Unicode码 (十进制)-->
+        <img src="2.gif" alt="表情">
+        <img src="1.webp" alt="魔方">
+        <!--
+            图片标签用来向页面中引入一个外部图片 
+            使用img标签来引入外部图片
+            属性：
+            src图片的路径
+            alt图书的描述
+            这个描述不会在页面中显示
+            但是有可能在图片无法加载时显示
+
+            搜索引擎会根据alt属性来盘判断图片的内容
+            如果没alt属性则搜索引擎不会对图片进行收录
+
+            ./a.gif和a.gif一个意思，./开头的为相对路径
+                相对路径相当于当前文件夹所在目录的路径
+            ./表示当前目录，../表示上级目录
+        -->
+        <!-- 
+            图片格式：
+                jpeg(jpg)
+                    -支持的颜色比较丰富，不支持透明效果
+                    -适合用来显示图片
+                gif
+                    -支持的颜色比较少，支持简单透明，支持动图
+                    -颜色单一的图片(logo)
+                        简单透明的图片
+                        动图
+                png
+                    -支持的颜色丰富，支持复杂透明
+
+                效果一致用小的
+                效果不一致，用效果好的
+
+                webp
+                    -google出品的专门为网页设计出的一种图片格式
+                    -支持的颜色丰富，支持复杂透明、支持动图、并且占用内存特别小
+                    -但它的兼容性较差，不能兼容所有浏览器
+
+                通过base64编码的图片
+                    base64可以用来将图片转换成字符串，直接在页面使用
+                    把文件用txt格式打开，复制编码到src属性里，可以直接显示图片
+                    图片可以在网页里更快速的出来
+        -->
+        
+        <!-- <iframe src="https://www.baidu.com" frameborder="0" width="500px" height="500px" title="百度在这儿哦"></iframe> -->
+        <!-- 0
+            内联框架iframe，用来引入一个外部的网页 
+            一般不推荐使用 iframe的内容不会被爬虫爬取
+        -->
+        <p>纸上得来终觉浅，绝知此事要躬行</p>
+        <audio controls src=""></audio>
+        <audio controls>
+            对不起你的浏览器不支持音频！
+            <source src="">
+            <source src="">
+                <!-- 可以添加多个音频格式来兼容所有浏览器，一般MP3和ogg够用 -->
+        </audio>
+        <!-- 
+            使用audio标签来引入一个外部的音频
+                一般情况下，音频都是使用mp3
+
+                默认情况下音频会在页面中显示和播放
+
+                contros 用来设置是否允许用户控制音频的播放
+                    这个属性比较特殊，它没有属性值
+                    如果允许用户播放，则添加该属性
+                        否则不添加，不需要设置属性值
+
+                autoplay 自动播放
+                除了IE浏览器，现在的浏览器为了更好的用户体验，默认都禁止自动播放
+                该标签不支持IE8及以下浏览器，第二种表示方法可以解决
+
+                loop
+                循环
+        -->
+        <!-- <embed src="src/路径" type="audio/文件类型"> 用于兼容IE8以下 但是别忘了设置宽高 -->
+        <video controls src=""></video>
+        <video controls>
+            <source src="src/地址">
+        </video>
+        <!-- 一般用MP4和webm两种格式 在兼容问题上和audio解决方式类似 -->
+        <!-- <embed src="src/路径" type="video/文件类型"> 用于兼容IE8及以下 -->
+        <!-- 优酷分享链接<iframe height=498 width=510 src='https://player.youku.com/embed/XNDkyNzEwODQ2OA==' frameborder=0 'allowfullscreen'></iframe> -->
+        <!-- <img src="2.gif" alt="图片描述 "> -->
+    </section>
+    <!-- section表示一个块 -->
+
+    <footer>
+        <a id="bottom" href="#"><h2 title="摸哪里呢，别把鼠标放人家隐私部位">一个害羞的的底部</h2></a>
+        <!-- 
+            通过我们的超链接，可以从一个页面跳转到另外一个页面，超文本标记语言也就是我们的超链接 
+            属性
+            href 地址属性 
+                -特殊值：
+                    #   回到顶部
+
+            targe 跳转方式
+        -->
+        <!-- 输入前五个字母自动生成用于测试的文本：Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo quisquam voluptas sapiente autem, dicta et eligendi, accusantium, totam at repellat suscipit cumque tempore. Neque veritatis tenetur quos deserunt earum magnam. -->
+    </footer>
+
+</body>
+
+</html>
+<!-- 
+    表示没有语义的块元素用<div>
+    表示没有语义的行内元素用<span>
+    <sup>上标
+    <sub>下标
+-->
+<!--
+无序列表
+    <ul>
+        <li></li>
+        <li></li>
+    </ul>  
+有序列表
+    <ol>
+        <li></li>
+        <li></li>
+    </ol>
+
+    上面这俩一般都消除格式再使用，因此没有区别
+    一般我们都用无序列表
+-->
+
+<!--
+        <dl>
+            <dt></dt>
+            <dd></dd>
+            <dd></dd>
+        </dl>
+        定义列表
+-->
